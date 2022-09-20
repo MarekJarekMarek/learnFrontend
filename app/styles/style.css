@@ -1,3 +1,8 @@
 body{
-    background-color: blue;
+    background-color: rgb(187, 187, 212);
+}
+.logo{
+    size: 100px;
+    
+    text-align: center;
 }
