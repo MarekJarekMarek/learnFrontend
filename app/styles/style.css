@@ -2,8 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:'Open Sans',sans-serif ;
-    
+    font-family:'Open Sans',sans-serif;   
 }
 
 body{
@@ -14,7 +13,7 @@ body{
 
 .main{
     width: 100%;
-    height: 300px;
+    height: 170px;
     display: flex;
     background-color: white;
     align-items: center;
@@ -26,8 +25,7 @@ body{
     display: flex;
     align-items: center;/*srodkowaenie gora dol*/
     margin: auto 0 auto 0;
-    padding-left: 5%;
-    
+    padding-left: 5%;   
 }
 .social{
     width: 40px;
@@ -51,13 +49,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .src{
     height: 40px;
-    width: 40px;
-    
-    
+    width: 40px;  
+     
 }
 
 .top-buton{
@@ -66,6 +64,8 @@ body{
     border: none;
     align-items: center;
     display: flex;
+    padding-left: 40px;
+    font-weight: 800;
 }
 
 .logo1{
@@ -78,65 +78,110 @@ body{
 
 
 .top{
+    /* width: 100%; */
     height: 70px;
     background-color: #fcc557;
-    clear: both;
-    
-    
+    clear: both; 
+    display: flex;  
+    align-items: center;
+    padding: 0 10% 0 10%;
+    font-weight: 800;
 }
 .funkcje{
-    margin-left: 40px;
+    /* margin-left: 40px; */
     float: left;
     list-style-type: none; 
-    text-align: center;
-    margin-top: 25px;
+    text-align: center; 
     border-right: 1px solid #000;
-    border-width: 3px;
-    width: 100px;
+    line-height: 10px;
+    /* width: 100px; */
     font-size: 11px;
     font-weight: 800;
-    padding: 0;
-    
-    
+    padding: 0 25px 0 25px;   
     
 }
 
 .funkcje1{
-    text-align: center;
-    margin-left: auto;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    
+    text-align: center;   
+    display: inline-table;
 }
 
-/* .funkcje2{
-    margin-left: 30px;
-    float: left;
-    list-style-type: none; 
-    text-align: center;
-    margin-top: 25px;
-    border-right: 1px solid #000;
-    border-width: 3px;
-    width: 100px;
-    font-size: 11px;
-    font-weight: 800;
-    
-    text-decoration-color: white;
-} */
+
 #pr{
     color: white;
 }
+
 .tlo{
-    width: 1600px;
-    height: 1000px;
-    /* size: 200px; */
-    /* display: flex; */
-    /* background-size: 800px; */
+    width: 100%;
+    height: 500px;
+}
+
+.text{
+    margin-top: 20px;
+    padding: 0;
 
 }
+
+.leftText{
+    font-size: 11px;
+    margin-left: 70px;
+    font-weight: 800;
+}
+
+.rightText{
+    font-size: 11px;
+    float: right;
+    margin-right: 70px;
+    font-weight: 800;
+}
+
+.duzy{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+.maly{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.znaczki{
+    position: absolute;
+    top: 80%;
+    align-items: center;
+    left: 35%;
+    display: flex;
+    
+}
+
+.funkcje2{
+    visibility: hidden;
+}
+
+
+li:last-child{
+    border: none;
+    color: white;
+}
+
 a{
     text-decoration: none;
     color: black;
+}
+
+@media(max-width: 1600px){
+    .container{
+        width: 1600px;
+    }
 }
 
