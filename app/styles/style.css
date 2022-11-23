@@ -164,8 +164,28 @@ body{
     
 }
 
-.funkcje2{
+
+ol li:hover > ul,
+ol li ul:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: white;
+    height: 200px; 
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.sub-menu{
+    height: 300px;
+    width: 1080px;
+    right: auto;
+    flex-wrap: wrap;
     visibility: hidden;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    display: flex;
 }
 
 
